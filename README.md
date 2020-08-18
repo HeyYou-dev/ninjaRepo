@@ -1,0 +1,2 @@
+# ninjaRepo
+training purpose 
