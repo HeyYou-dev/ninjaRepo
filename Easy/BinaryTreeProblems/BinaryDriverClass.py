@@ -113,3 +113,7 @@ print("numberOfLeaveslnBTusingLevelOrder->",binaryTree.numberOfLeaveslnBTusingLe
 # finding the number of (nodes with only with one child)
 print('\n')
 print("numberOfHalfNodeslnBTusingLevelOrder->",binaryTree.numberOfHalfNodeslnBTusingLevelOrder(a))
+
+# converting tree to its mirror
+print('\n')
+print("invertBinaryTree->",binaryTree.invertBinaryTree(a))

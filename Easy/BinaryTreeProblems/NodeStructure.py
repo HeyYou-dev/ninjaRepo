@@ -8,6 +8,9 @@ class Node:
         self.data = data
 
         self.right = None
+        
+    def __str__(self):
+        return f"Node {self.data}"
     
     
     

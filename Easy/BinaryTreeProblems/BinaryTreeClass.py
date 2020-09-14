@@ -265,6 +265,17 @@ class BinaryTree:
             if node.right is not None:
                 que.append(node.right)
         return onlyOneNode
+    
+    def invertBinaryTree(self,root):
+        temp=root
+        if temp is not None:
+            self.invertBinaryTree(temp.left)
+            self.invertBinaryTree(temp.right)
+            a=root.left
+            root.left = root.right
+            root.right=a
+        
+        return root
                 
                 
                 
